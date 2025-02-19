@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th{
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+  
+tr:hover {background-color: coral;}
+
+h2{
+  text-align: center;
+}
+
+.btnthem{
+  width: 100%;
+  padding: 3px;
+  margin: 20px 0;
+  background-color: green;
+  color: white;
+}
+.do{
+  background-color: red;
+
+}
+.btnthem:hover{
+  background-color: rgb(82, 140, 82);
+}
+
+img{
+  width: 100px;
+}
+
+.boloc{
+  width: 100%;
+}
+option{
+  width: 100%;
+}
