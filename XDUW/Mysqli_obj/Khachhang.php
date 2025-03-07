@@ -44,7 +44,7 @@
                 <td><?= $us["DiaChi"]?></td>
                 <td><?= $us["SoDT"]?></td>
 
-                <td><button class="btnthem ">Cập nhật </button></td>
+                <td><button class="btnthem " onclick="window.open('Khachhang-update.php?id=<?=$us['KhachHang_id']?> ','_self')">Cập nhật </button></td>
                 <td><button class="btnthem do">Xóa</button></td>
             </tr>
             

@@ -19,7 +19,7 @@
 ?>
 <body>
     <div class="big">
-        <h2>Danh Sách loại sản phẩm</h2>
+        <h2>Danh Sách loại sản phẩm bằng pro</h2>
         <a href="loaisanpham-add.php"> <button class="add">Thêm Mới</button></a>
         <div class="bang">
         <table border="1">
@@ -41,7 +41,7 @@
                 <td><?= $us["TenLoai"]?></td>
                 <td><img src="../images/<?= $us["HinhAnh"]?>" alt=""></td>
 
-                <td><button class="btnthem ">Cập nhật </button></td>
+                <td><button class="btnthem " onclick="window.open('loaisanpham-update.php?id=<?=$us['MaLoai']?>','_self')">Cập nhật </button></td>
                 <td><button class="btnthem do">Xóa</button></td>
             </tr>
             

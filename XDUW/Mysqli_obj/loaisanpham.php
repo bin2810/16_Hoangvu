@@ -44,7 +44,7 @@
                 <td><?= $us["TenLoai"]?></td>
                 <td><img src="../images/<?= $us["HinhAnh"]?>" alt=""></td>
 
-                <td><button class="btnthem ">Cập nhật </button></td>
+                <td><button class="btnthem " onclick="window.open('loaisanpham-update.php?id=<?=$us['MaLoai']?>','_self')">Cập nhật </button></td>
                 <td><button class="btnthem do">Xóa</button></td>
             </tr>
             

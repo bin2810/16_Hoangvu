@@ -19,7 +19,7 @@
 ?>
 <body>
     <div class="big">
-        <h2>Danh Sách loại sản phẩm</h2>
+        <h2>Danh Sách loại sản phẩm bằng pro</h2>
         <button class="add" onclick="window.open('sanpham-add.php ','_self')">Thêm Mới</button>
         <div class="bang">
         <table border="1">
@@ -41,7 +41,7 @@
                 <td><?= $us["TenSP"]?></td>
                 <td><?= $us["DonGia"]?></td>
 
-                <td><button class="btnthem ">Cập nhật </button></td>
+                <td><button class="btnthem " onclick="window.open('sanpham_update.php?id=<?=$us['SanPham_id']?>','_self')">Cập nhật </button></td>
                 <td><button class="btnthem do">Xóa</button></td>
             </tr>
             

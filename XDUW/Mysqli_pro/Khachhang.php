@@ -22,7 +22,7 @@
 ?>
 <body>
     <div class="big">
-        <h2>Danh Sách khách hàng</h2>
+        <h2>Danh Sách khách hàng bằng pro</h2>
         <button class="btnthem">Thêm mới</button>
         <div class="bang">
         <table border="1">
@@ -44,7 +44,7 @@
                 <td><?= $us["DiaChi"]?></td>
                 <td><?= $us["SoDT"]?></td>
 
-                <td><button class="btnthem ">Cập nhật </button></td>
+                <td><button class="btnthem " onclick="window.open('Khachhang-update.php?id=<?=$us['KhachHang_id']?> ','_self')">Cập nhật </button></td>
                 <td><button class="btnthem do">Xóa</button></td>
             </tr>
             
