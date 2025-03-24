@@ -40,7 +40,7 @@
                 <td><?= $us["DienThoai"]?></td>
                 <td><?= $us["DiaChi"]?></td>
                 <td><button class="btnthem " onclick="window.open('user-update.php?id=<?=$us['user_id']?> ','_self')">Cập nhật </button></td>
-                <td><button class="btnthem do">Xóa</button></td>
+                <td><button class="btnthem do" onclick="window.location.href='user-delete.php?id=<?=$us['user_id']?>'">Xóa</button></td>
             </tr>
             
                 <?php

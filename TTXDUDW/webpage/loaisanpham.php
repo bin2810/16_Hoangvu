@@ -44,7 +44,7 @@
                 <td><img src="../images/<?=$sp -> HinhAnh?>" alt=""></td>
 
                 <td><button class="btnthem " onclick="window.open('loaisanpham-update.php?id=<?=$sp-> MaLoai?>','_self')">Cập nhật </button></td>
-                <td><button class="btnthem do">Xóa</button></td>
+                <td><button class="btnthem do" onclick="window.open('loaisanpham-del.php?id=<?=$sp-> MaLoai?>','_self')">Xóa</button></td>
             </tr>
             
              <?php
