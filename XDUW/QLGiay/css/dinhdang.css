@@ -1,0 +1,84 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .hinhsp{
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    background-color: white;
+}
+
+.nut{
+  background: #407efb;
+  border: none;
+  border-bottom: 6px solid #c6cdf5;
+  padding: 6px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+ 
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 0px;
+  transition: all 0.1s;
+  outline: none;
+}
+.nut:hover{
+  margin-top: 2px;
+ border-bottom-width: 3px;
+  cursor: pointer; 
+}
+.nut:active{
+  margin-top: 5px;
+  border-bottom-width: 0px;
+}
+.CapNhat{
+  background: #e1e90d;
+}
+.Them{
+  color: #fff;
+}
+.Xoa{
+  background: #f30d0d;
+  color: yellow;
+}
+.canhgiua{
+  text-align: center;
+}
+
+.phantrang{
+  text-decoration: none;
+  /* display: flex;
+  justify-content: center; */
+  text-align: right;
+  margin: 20px 0;
+}
+.phantrang a{
+  margin: 0px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  background-color: #104733;
+  padding: 2px 5px;
+}
+
+
+
+.error{
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}

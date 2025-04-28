@@ -19,6 +19,8 @@
         $user = $sta -> fetchAll(PDO::FETCH_OBJ);
     }
 
+    
+
 ?>
 <body>
     <div class="big">
