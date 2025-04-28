@@ -48,7 +48,7 @@ $user = $stmt->get_result();
             </tr>
             <?php
                 if ($user->num_rows > 0) {
-                    $i = $vtbd + 1; // Đánh số thứ tự đúng vị trí trang
+                    $i = $vtbd + 1;
                     while ($us = $user->fetch_assoc()) {
             ?>
             <tr>

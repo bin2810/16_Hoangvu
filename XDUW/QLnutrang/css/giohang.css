@@ -1,0 +1,144 @@
+/*CSS document*/
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;   
+}
+body{
+    /*background: #1690a7;*/
+    background-color: #D8B5DA;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+#main_giohang{
+    width:98%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.trangchu{
+    margin: 5px;
+    padding-top:10px;
+    padding-left: 15px;
+}
+h2{    
+    margin: 15px 0px 5px 5px;
+    color:#1690a7;
+    font-size: 18px;
+    padding-left: 15px;
+}
+#giohang{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+form{  
+    width:98%;  
+    padding:10px;  
+    display: flex;
+    flex-wrap: wrap;
+}
+#spham{
+    width:100%;
+}
+#tb_spham{
+    width:100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+#hg_tieude{
+    background-color: #656662;
+    color:#fff;
+}
+.vnd{   
+    font-weight: 100;
+}
+.canhgiua{
+    text-align: center;
+}
+.giua_o{      
+    width: 100%;
+    display:flex;
+    justify-content: center;     
+}
+.canhphai{
+    text-align: right;
+    padding-right:10px;
+}
+.chudo{
+    color: #f00;
+}
+.hinhsp{
+    width:100px;
+    height:auto;
+}
+input{
+    display: block;
+    border: 1px solid #ccc;   
+    padding: 10px;   
+    border-radius: 5px;
+}
+.TenSP{
+    width:45%;
+    padding-left: 20px;
+}
+.soluong{
+    width:30%;    
+    text-align: center;
+}
+#capnhat{
+    width:100%;   
+    margin:10px;
+}
+#tongtien{
+    height: 40px;
+    background-color: #ccc;    
+    font-weight: bold;
+    
+}
+button{
+    float:right;
+    background-color: #555;
+    padding: 10px 15px;
+    color:#fff;
+    border-radius: 5px;
+    margin-right: 23px;
+    border:none;
+}
+button:hover{
+    opacity: .7;
+}
+#khachhang{
+    width:100%;
+    margin-top:10px;
+    border-top: 1px solid #ccc;  
+}
+#tt_KH{
+    margin-top: 20px;
+}
+.error{
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width:91%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.canhphai{
+    text-align: right;
+}
+a{
+    float:right;
+    background-color: #555;
+    padding: 10px 15px;
+    color:#fff;
+    border-radius: 5px;
+    margin-right: 23px;
+    border:none;
+    text-decoration:none;
+}
+a:hover{
+    opacity: .7;
+}
